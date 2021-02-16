@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.horizontal {
+  position: relative;
+  min-height: 800px;
+}
+
+.bar {
+  position: fixed;
+  width: 280vw;
+  top: 2.5rem;
+  left: 20vw;
+  border-radius: 8px;
+  border: 3px solid black;
+  z-index: 1;
+  padding: 5rem;
+}
+
+.fixed-box {
+  position: fixed;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: blue;
+  width: 50vw;
+  height: 100px;
+  font-size: 2rem;
+  left: 25vw;
+  top: 4.5rem;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.container section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fff;
+}
+
+.container section .content {
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+}
+
+.container section .content h2 {
+  font-size: 4rem;
+  color: #111;
+}
+
+.container section .content p {
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  color: #111;
+}
+
+.container section .content p {
+  line-height: 1.5;
+}
+
+.container section .content ul {
+  text-align: start;
+  margin: 5rem 0 0 0;
+  line-height: 2rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  color: black;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 1;
+  top: 6.5rem;
+}
+
+.names div {
+  width: 100vw;
+  color: white;
+}
+
+.terms {
+  position: fixed;
+  z-index: 1;
+  top: 13rem;
+  left: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160vw;
+}
+
+.terms ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50vw;
+}
