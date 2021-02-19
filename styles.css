@@ -125,7 +125,7 @@
 .terms {
   position: fixed;
   z-index: 1;
-  top: 12.5rem;
+  top: 13.5rem;
   left: 27vw;
   display: flex;
   flex-direction: row;
@@ -161,11 +161,21 @@
   width: 30vw;
 }
 
+.list-1 {
+  left: 45vw;
+  position: fixed;
+}
+
+.list-2 {
+  left: 185vw;
+  position: fixed;
+}
+
 .list-3 {
   list-style-type: none;
   position: fixed;
   top: 20rem;
-  right: 10rem;
+  left: 185vw;
 }
 
 .logo {
@@ -185,16 +195,11 @@
 }
 
 .arrow-2 {
-  top: 16rem;
-  left: 150vw;
-}
-
-.arrow-3 {
   top: 6.5rem;
   left: 217vw;
 }
 
-.arrow-4 {
+.arrow-3 {
   top: 17.1rem;
   left: 217vw;
 }
