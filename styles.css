@@ -47,7 +47,7 @@
   height: 20px;
   font-size: 2rem;
   left: 25vw;
-  top: 15.3rem;
+  top: 12.2rem;
 }
 
 .container {
@@ -202,7 +202,7 @@
 .list-3 {
   list-style-type: none;
   position: fixed;
-  top: 25rem;
+  top: 22rem;
   left: 185vw;
 }
 
@@ -261,7 +261,7 @@
 
   .list-3 {
     left: 100vw;
-    top: 22rem;
+    top: 20rem;
   }
 }
 
@@ -358,7 +358,7 @@
   .list-3 {
     list-style-type: none;
     position: fixed;
-    top: 21rem;
+    top: 19rem;
     left: 115vw;
   }
 
