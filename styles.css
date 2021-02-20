@@ -8,8 +8,6 @@
 }
 
 .horizontal {
-  position: relative;
-  min-height: 800px;
 }
 
 /*
@@ -172,6 +170,7 @@
   top: 2rem;
   left: 15vw;
   width: 60vw;
+  height: 20rem;
   justify-content: space-between;
 }
 
@@ -224,7 +223,7 @@
 
 .arrow-3 {
   top: 13rem;
-  left: 217vw;
+  left: 147vw;
   transform: rotate(-180deg);
 }
 
@@ -255,7 +254,7 @@
   }
 
   .list-3 {
-    left: 145vw;
+    left: 100vw;
     top: 22rem;
   }
 }
@@ -287,8 +286,8 @@
   }
 
   .list-3 {
-    left: 155vw;
-    top: 20rem;
+    left: 115vw;
+    top: 22rem;
   }
 }
 
@@ -320,7 +319,7 @@
     list-style-type: none;
     position: fixed;
     top: 22rem;
-    left: 175vw;
+    left: 115vw;
   }
 
   .logo {
@@ -353,8 +352,8 @@
   .list-3 {
     list-style-type: none;
     position: fixed;
-    top: 19rem;
-    left: 170vw;
+    top: 21rem;
+    left: 115vw;
   }
 
   .logo {
@@ -363,6 +362,7 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+p {
+  padding-top: 10rem;
+  background-color: white;
 }
